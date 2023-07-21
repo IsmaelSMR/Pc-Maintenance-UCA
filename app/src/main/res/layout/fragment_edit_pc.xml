@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".EditPcFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/common_padding_default">
+
+        <!-- Pc Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Desc -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_desc"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Brand -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_brand"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Model -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_model"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Processor -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiProcessor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_processor"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etProcessor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- RAM -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_ram"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etRam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Storage -->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tiStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_storage"
+            app:helperText="@string/helper_required"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/counter_max_name"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_lab_computer"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etStorage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/counter_max_name"
+                android:inputType="textCapWords"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

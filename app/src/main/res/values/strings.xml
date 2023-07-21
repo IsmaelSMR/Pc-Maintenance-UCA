@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">UCA Maintenance</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UCA laboratory maintenance</string>
+    <string name="nav_header_subtitle">P Building Laboratories</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Lab 1</string>
+    <string name="menu_gallery">Lab 2</string>
+    <string name="menu_slideshow">Lab 3</string>
+
+
+    /////////////////////////////////
+    <!-- <string name="app_name">Computer</string> -->
+    <string name="description_img_photo">Computer img</string>
+    <string name="description_store_add">Add computer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name">PC Name</string>
+    <string name="hint_desc">PC Description</string>
+    <string name="hint_brand">PC Brand</string>
+    <string name="hint_model">PC Model</string>
+    <string name="hint_processor">PC Processor</string>
+    <string name="hint_ram">PC RAM</string>
+    <string name="hint_storage">PC Storage</string>
+    <string name="helper_required">Required</string>
+
+    <string name="hint_photo_url">Computer pic</string>
+    <string name="edit_store_title_add">Create PC</string>
+    <string name="menu_save">PC saved</string>
+    <string name="edit_pc_title_add">PC saved successfully</string>
+    <string name="edit_pc_message_save_success">PC saved successfully</string>
+</resources>
